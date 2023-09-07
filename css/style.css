@@ -39,13 +39,18 @@ body{
 
 img{
     width: 110px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 5px grey;
+
 }
 
 .container{
-    width: 300px;
+    width: calc(70% / 3 - 20px);
     height: 110px;
     background-color: black;
-    padding-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+
 }
 
 .section{
@@ -54,18 +59,24 @@ img{
 
 .author{
     color: white;
-    padding-top: 10px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
-h4{
+.job{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 10px;
+    padding-left: 15px;
 
 }
 
-h5{
-    color: white;
+.email{
+    color: #5CB8C7;
+    font-size: 15px;
     padding-top: 10px;
+    padding-left: 15px;
 
 }
+
