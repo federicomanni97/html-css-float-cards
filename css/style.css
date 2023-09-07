@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', sans-serif;
+}
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+}
+
+.paragraph{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    margin-top: 40px;
+    color: #E53170;
+    font-size: 40px;
+}
